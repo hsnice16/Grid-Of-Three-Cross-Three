@@ -1,0 +1,81 @@
+:root {
+  --blue-500: #3b82f6;
+  --gray-500: #6b7280;
+  --gray-700: #374151;
+  --green-500: #10b981;
+  --red-500: #ef4444;
+}
+
+p,
+th {
+  color: var(--gray-700);
+}
+
+p {
+  max-width: 600px;
+  font-size: 25px;
+  margin: auto;
+  padding: 0.5rem;
+  font-family: sans-serif;
+}
+
+table,
+thead,
+tbody,
+tfoot,
+th {
+  border-collapse: collapse;
+  border: 1px solid var(--gray-500);
+}
+
+table {
+  margin: 2rem auto;
+}
+
+:is(thead, tbody, tfoot) th {
+  padding: 0.5rem;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+tbody th {
+  text-align: left;
+}
+
+tbody button {
+  margin: auto 0.5rem;
+  min-width: 7rem;
+  cursor: pointer;
+  font-size: 14.5px;
+  padding: 0.2rem;
+}
+
+#btn-red {
+  border: 1px solid var(--red-500);
+  background-color: var(--red-500);
+  color: white;
+}
+
+#btn-green {
+  border: 1px solid var(--green-500);
+  background-color: var(--green-500);
+  color: white;
+}
+
+#btn-blue {
+  border: 1px solid var(--blue-500);
+  background-color: var(--blue-500);
+  color: white;
+}
+
+#btn-abel {
+  font-family: "Abel", sans-serif;
+}
+
+#btn-comfortaa {
+  font-family: "Comfortaa", cursive;
+}
+
+#btn-dancing-script {
+  font-family: "Dancing Script", cursive;
+}
